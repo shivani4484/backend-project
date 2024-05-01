@@ -1,0 +1,54 @@
+[
+  {
+    "carPlate": "12345",
+    "washType": "clean",
+    "carColor": "red",
+    "modelName": "mq2"
+  },
+  {
+    "BookName": "abc",
+    "Genres": "abc",
+    "AuthorName": "sidhu"
+  },
+  {
+    "BookName": "xyz",
+    "Genres": "xyz",
+    "AuthorName": "sidhu"
+  },
+  {
+    "BookName": "csa",
+    "Genres": "asdsa",
+    "AuthorName": "asdsad"
+  },
+  {
+    "BookName": "sidhu",
+    "Genres": "sidhu",
+    "AuthorName": "sidhu"
+  },
+  {
+    "BookName": "gaurav",
+    "Genres": "gaurav",
+    "AuthorName": "gaurav"
+  },
+  {
+    "BookName": "qwe",
+    "Genres": "wqe",
+    "AuthorName": "ewq"
+  },
+  {
+    "BookName": "sodhi",
+    "Genres": "sodhi",
+    "AuthorName": "sodhi"
+  },
+  {
+    "BookName": "zaq",
+    "Genres": "zaq",
+    "AuthorName": "zaq"
+  },
+  {
+    "BookName": "sad",
+    "Genres": "sad",
+    "AuthorName": "sad",
+    "Rating": "125"
+  }
+]

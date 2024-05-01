@@ -1,0 +1,17 @@
+<!-- cancel.hbs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h1>Cancel Borrowing</h1>
+    <form action="/cancel" method="post">
+        <label for="BookName">BookName:</label>
+        <input type="text" id="BookName" name="BookName" required>
+        <button type="submit">Cancel Borrowing</button>
+    </form>
+</body>
+</html>

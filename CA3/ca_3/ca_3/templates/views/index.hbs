@@ -1,0 +1,21 @@
+{{> header}}
+<div class="main-content">
+    <h2>Your Personal Bookshelf Companion</h2>
+    <form action="/Read" method="post">
+        <label for="BookName">Book Name:</label>
+        <input type="text" id="BookName" name="BookName" required><br><br>
+        
+        <label for="Genres">Genres:</label>
+        <input type="text" id="Genres" name="Genres" required><br><br>
+        
+        <label for="AuthorName">AuthorName:</label>
+        <input type="text" id="AuthorName" name="AuthorName"><br><br>
+        
+        <label for="Rating of the Book">Rating of the Book:</label>
+        <input type="text" name="Rating" placeholder="Enter rating">
+
+        
+        <button type="submit">Read</button>
+    </form>
+</div>
+{{> footer}}

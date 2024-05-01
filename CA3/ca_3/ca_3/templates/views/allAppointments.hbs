@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Borrowed Books</title>
+</head>
+<body>
+    <h1>All Borrowed Books</h1>
+    <ul>
+        {{#each Borrowers}}
+            <li>
+                <strong>Book Name:</strong> {{BookName}} <br>
+                <strong>Genres:</strong> {{Genres}} <br>
+                <strong>Author Name:</strong> {{AuthorName}} <br>
+                <strong>Rating of the Book:</strong> {{Rating}}
+            </li>
+        {{/each}}
+    </ul>
+</body>
+</html>

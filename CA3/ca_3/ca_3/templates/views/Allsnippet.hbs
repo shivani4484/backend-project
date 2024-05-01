@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All snippet</title>
+</head>
+<body>
+    <h1>All snippet</h1>
+    <ul>
+        {{#each Borrowers}}
+            <li>
+                <strong>title:</strong> {{title}} <br>
+                <strong>description:</strong> {{description}} <br>
+                <strong>language:</strong> {{language}} <br>
+                <strong>codecontent:</strong> {{codecontent}}
+            </li>
+        {{/each}}
+    </ul>
+</body>
+</html>
